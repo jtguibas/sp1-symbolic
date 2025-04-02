@@ -1,0 +1,20 @@
+# Cargo build
+**/target
+
+# Cargo config
+.cargo
+
+# CSV files
+*.csv
+
+# nvidia profiling files
+*.nsys-rep
+*.sqlite
+
+# proof file from test
+prover/proof-with-pis.bin
+perf/proof-with-pis.bin
+core_proof.bin
+program.bin
+stdin.bin
+.DS_Store

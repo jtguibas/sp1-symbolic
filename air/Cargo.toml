@@ -1,0 +1,16 @@
+[package]
+name = "air"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lazy_static = "1.4.0"
+p3-air = { workspace = true }
+p3-matrix = { workspace = true }
+sp1-core-machine = { workspace = true }
+sp1-stark = { workspace = true }
+sp1-derive = { workspace = true }
+sp1-core-executor = { workspace = true }
+p3-baby-bear = { workspace = true }
+p3-field = { workspace = true }
+tracing = "0.1.40"
